@@ -3,7 +3,7 @@ KIWebViewSchemeRoutes
 
 Routes a WebView's app scheme request such as `app://some_feature`
 
-```
+```objc
 KISchemeRoutes *route = [KISchemeRoutes routesForScheme:@"app"];
 [route addRoute:@"some_feature" then:^(NSDictionary *params) {
     // Do something.
